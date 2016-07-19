@@ -1,0 +1,15 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+/home/nuplavikar/AndroidStudioProjects/HelloJNI2/app/build/intermediates/binaries/debug/all/obj/x86/libhello-jni.so
+/home/nuplavikar/AndroidStudioProjects/HelloJNI2/app/build/intermediates/objectFiles/x86DebugAllSharedLibrary/hello-jniMainC/1qcfxsgmjvj3xu8nlr9jkj015/hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/home/nuplavikar/Android/Sdk/ndk-bundle/platforms/android-23/arch-x86
+-Wl,--build-id
+-gcc-toolchain
+/home/nuplavikar/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64
+-target
+i686-none-linux-android
